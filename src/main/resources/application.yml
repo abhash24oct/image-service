@@ -1,0 +1,28 @@
+info:
+  app:
+    name: ImageService
+    description: Image service
+    version: 1.0.0
+
+spring:
+  profiles:
+    active: dev
+
+application:
+  predefinedtype:
+    original:
+      height: 100
+      width: 20
+      quality: 10
+      scaleType: CROP
+      fillColor: 123123
+      imageType: JPG
+      sourceName: test
+    thumbnail:
+      height: 10
+      width: 50
+      quality: 10
+      scaleType: CROP
+      fillColor: 123123
+      imageType: PNG
+      sourceName: test

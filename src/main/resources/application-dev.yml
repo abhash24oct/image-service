@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    credentials:
+      access-key: ${aws-accesskey}
+      secret-key: ${aws-secretkey}
+    region:
+      static: ${aws-region}
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: ${aws-bucket-name}
+  sourceRoot: ${source-root-url}
