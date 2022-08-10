@@ -3,10 +3,10 @@
 
 The Image service exposes two apis to download and delete the images
 
-- /image/show/<predefined-type-name>/<dummy-seo-name>/?
-  reference=<unique-original-image-filename>
-- /image/flush/<predefined-image-type>/reference=<unique-original-image
-  -filename>
+- `/image/show/<predefined-type-name>/<dummy-seo-name>/?
+  reference=<unique-original-image-filename>`
+- `/image/flush/<predefined-image-type>/reference=<unique-original-image
+  -filename>`
 
 
 ## Requirements
@@ -17,7 +17,7 @@ For building and running the application you need:
 - Docker
 - Maven 3
 
-##Configuration
+## Configuration
 
 Below config needs to be passed to the application 
 
