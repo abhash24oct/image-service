@@ -1,14 +1,14 @@
 cloud:
   aws:
     credentials:
-      access-key: ${aws-accesskey}
-      secret-key: ${aws-secretkey}
+      access-key:  dummy
+      secret-key: dummy
     region:
-      static: ${aws-region}
+      static: eu-central-1
     stack:
       auto: false
 
 application:
   bucket:
-    name: ${aws-bucket-name}
-  sourceRoot: ${source-root-url}
+    name: my-test-bucket-bkorf
+  sourceRoot: classpath
